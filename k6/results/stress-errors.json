@@ -1,0 +1,12 @@
+{
+  "run_date": "2026-10-01 20:39 -> 20:47 (+07)",
+  "target": "https://smkdarmasiswa1.my.id",
+  "script": "k6/stress-test.js (k6 v2.3.0)",
+  "error_classes": {
+    "EOF (connection closed)": 261,
+    "RST (forcibly closed)": 15,
+    "other timeout": 89,
+    "connect timeout": 1428
+  },
+  "total_failed_request_warnings": 1793
+}

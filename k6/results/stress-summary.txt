@@ -1,0 +1,32 @@
+====================
+  k6 stress - https://smkdarmasiswa1.my.id
+==========================================================================
+  Duration        : 486s
+  Peak VUs        : 250
+  Requests        : 16168   (33.25 req/s)
+  Throughput      : 1232.6 MB in / 6.9 MB out
+
+  HTML page latency (ms)
+    avg 3850   med 2633   min 0   max 30066
+    p(90) 8890   p(95) 11484   p(99) n/a
+
+  Reliability
+    failed requests : 11.09%
+    checks passed   : 90.96%  (29492 passed / 2932 failed)
+    page checks     : 80.77%
+    server 5xx      : 0
+    timeouts        : 25
+
+  All thresholds satisfied.
+====================
+
+PER-MINUTE FAILED REQUESTS (error class breakdown):
+ (error class breakdown):
+20:40: [('EOF (connection closed)', 1)] total=1
+20:41: [('RST (forcibly closed)', 1)] total=1
+20:42: [('EOF (connection closed)', 6)] total=6
+20:43: [('connect timeout', 65), ('EOF (connection closed)', 13), ('other timeout', 7)] total=85
+20:44: [('connect timeout', 397), ('EOF (connection closed)', 28), ('other timeout', 6), ('RST (forcibly closed)', 1)] total=432
+20:45: [('connect timeout', 465), ('EOF (connection closed)', 73), ('other timeout', 45), ('RST (forcibly closed)', 9)] total=592
+20:46: [('connect timeout', 466), ('EOF (connection closed)', 106), ('other timeout', 30), ('RST (forcibly closed)', 4)] total=606
+20:47: [('connect timeout', 35), ('EOF (connection closed)', 34), ('other timeout', 1)] total=70
