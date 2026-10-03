@@ -38,7 +38,7 @@ winget install GrafanaLabs.k6
 ## Running
 
 ```powershell
-cd "c:\Users\MyBook Hype AMD\OneDrive\Documents\New folder"
+cd "c:\Users\MyBook Hype AMD\OneDrive\Documents\k6 script"
 
 # 1. Sanity check first — always a good idea.
 k6 run k6/smoke-test.js
